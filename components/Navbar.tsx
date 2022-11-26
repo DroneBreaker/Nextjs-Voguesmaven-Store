@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <div className='bg-white border-b-2 shadow-2xl shadow-neutral-400'>
         <nav className='md:mx-24 mx-10 md:flex'>
-            <Image alt='Voguesmaven' className='text-left m-2' src='#'/>
+            <Image alt='VM' className='text-left m-2' src='/' width={5} height={5}/>
             
             <ul className='m-2' key={'item'}>
                 {navItems.map((item, key) => (

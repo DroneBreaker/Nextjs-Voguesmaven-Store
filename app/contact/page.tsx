@@ -19,7 +19,7 @@ export default function Contact() {
                     <input className='mt-4 px-2 rounded-md w-44'  placeholder='Topic'/>
                 </div>
 
-                <textarea className='mt-4 px-2 md:mx-0 mx-2 rounded-md md:w-[25.2rem] w-[23.9rem]' rows={7} cols={54} placeholder='Message'/>
+                <textarea className='mt-4 px-2 md:mx-0 mx-2 rounded-md md:w-[25.7rem] w-[22.6rem]' rows={7} cols={52} placeholder='Message'/>
 
                 <Button text={'Submit'} route={'#'}/>
             </motion.div>

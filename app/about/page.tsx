@@ -28,7 +28,7 @@ export default function About() {
             </motion.div>
 
 
-            <motion.div initial={{opacity: 0, scale: 0.2}} whileInView={{opacity: 1, scale: 1}} transition={{duration: 2.5}} className='p-4'>
+            <motion.div initial={{opacity: 0, scale: 0.2}} whileInView={{opacity: 1, scale: 1}} transition={{duration: 2}} className='p-4'>
                 <h1 className='md:mx-24 mx-12 text-4xl font-semibold'>Damn, Goodbye!</h1>
             </motion.div>
         </div>
