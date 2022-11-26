@@ -12,14 +12,14 @@ export default function Contact() {
             </motion.div>
 
             <motion.div initial={{opacity: 0, scale: 0.2}} animate={{opacity: 1, scale: 1}} transition={{duration: 2.2}}>
-                <div className='grid grid-cols-2 gap-2 mt-12 md:mx-0 mx-2'>
-                    <input className='mt-4 px-2 rounded-md w-44' placeholder='First Name'/>
-                    <input className='mt-4 px-2 rounded-md w-44'  placeholder='Last Name'/>
-                    <input className='mt-4 px-2 rounded-md w-44'  placeholder='Email'/>
-                    <input className='mt-4 px-2 rounded-md w-44'  placeholder='Topic'/>
+                <div className='grid grid-cols-2 gap-2 mt-12 md:mx-0 mx-4'>
+                    <input className='mt-4 px-2 rounded-md w-40' placeholder='First Name'/>
+                    <input className='mt-4 px-2 rounded-md w-40'  placeholder='Last Name'/>
+                    <input className='mt-4 px-2 rounded-md w-40'  placeholder='Email'/>
+                    <input className='mt-4 px-2 rounded-md w-40'  placeholder='Topic'/>
                 </div>
 
-                <textarea className='mt-4 px-2 md:mx-0 mx-2 rounded-md md:w-[25.7rem] w-[22.6rem]' rows={7} cols={52} placeholder='Message'/>
+                <textarea className='mt-4 px-2 md:mx-0 mx-4 rounded-md md:w-[25.7rem] w-[21.1rem]' rows={7} cols={52} placeholder='Message'/>
 
                 <Button text={'Submit'} route={'#'}/>
             </motion.div>
