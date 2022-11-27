@@ -11,7 +11,7 @@ export default function Home() {
         <div className="bg-neutral-300 h-[22rem] mb-4">
           <div className="grid md:grid-cols-2 grid-cols-1">
             <div>
-              <h2 className="md:mx-24 mx-10 md:text-5xl text-2xl font-medium mt-16 md:w-[24rem] w-[15rem] mb-4">Shop from us and get amazing deals</h2>
+              <h2 className="md:mx-24 mx-10 md:text-5xl text-3xl font-medium mt-16 md:w-[24rem] w-[15rem] mb-4">Shop from us and get amazing deals</h2>
 
               <Button text="Shop Now" route="/shop"/>
             </div>
