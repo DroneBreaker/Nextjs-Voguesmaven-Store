@@ -8,10 +8,10 @@ import { LazyMotion, motion, domAnimation } from "framer-motion";
 export default function Home() {
   return (
       <motion.div initial={{opacity: 0, scale: 0.2}} whileInView={{opacity: 1, scale: 1}} transition={{duration: 0.9}}>
-        <div className="bg-neutral-300 h-[22rem] mb-4">
+        <div className="bg-neutral-300 h-[21rem] mb-4">
           <div className="grid grid-cols-2">
             <div>
-              <h2 className="md:mx-24 mx-8 md:text-5xl text-2xl font-medium md:mt-16 mt-10 md:w-[24rem] w-[17.5rem] mb-4">Shop from us and get amazing deals</h2>
+              <h2 className="md:mx-24 mx-8 md:text-5xl text-xl font-bold md:mt-16 mt-10 md:w-[24rem] w-[12rem] mb-4">Shop from us and get amazing deals</h2>
 
               <Button text="Shop Now" route="/shop"/>
             </div>
