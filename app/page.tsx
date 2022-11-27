@@ -11,18 +11,18 @@ export default function Home() {
         <div className="bg-neutral-300 h-[22rem] mb-4">
           <div className="grid grid-cols-2">
             <div>
-              <h2 className="md:mx-24 mx-10 md:text-5xl text-3xl font-medium md:mt-16 mt-10 md:w-[24rem] w-[15rem] mb-4">Shop from us and get amazing deals</h2>
+              <h2 className="md:mx-24 mx-8 md:text-5xl text-3xl font-medium md:mt-16 mt-10 md:w-[24rem] w-[16rem] mb-4">Shop from us and get amazing deals</h2>
 
               <Button text="Shop Now" route="/shop"/>
             </div>
 
             <div className="relative bg-neutral-300">
-              <img style={{top: '3%', left: '5%'}} className="absolute h-[18rem] w-[17rem]" src="/home.png"/>
+              <img style={{top: '3%', left: '6%'}} className="absolute h-[18rem] w-[17rem]" src="/home.png"/>
             </div>
           </div>
         </div>
 
-          <div className="md:mx-24 mx-10 mt-2">
+          <div className="md:mx-24 mx-8 mt-2">
             <Card/>
           </div>
       </motion.div>

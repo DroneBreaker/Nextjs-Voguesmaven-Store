@@ -9,7 +9,7 @@ export default function Contact() {
     <div className='bg-neutral-300 h-[100vh]'>
         <div className='grid md:grid-cols-2 grid-cols-1'>
             <motion.div initial={{opacity: 0, scale: 0.2}} whileInView={{opacity: 1, scale: 1}} transition={{duration: 0.8}} className='md:mx-24 mx-12'>
-                <div className='mt-10 h-full'>
+                <div className='mt-8 h-full'>
                     <Image alt='Hey' height={800} width={700} src='/contact.png'/>
                 </div>
             </motion.div>
