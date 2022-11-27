@@ -14,7 +14,7 @@ export default function Contact() {
                 </div>
             </motion.div>
 
-            <motion.div initial={{opacity: 0, scale: 0.2}} animate={{opacity: 1, scale: 1}} transition={{duration: 2.2}}>
+            <motion.div initial={{opacity: 0, scale: 0.2}} animate={{opacity: 1, scale: 1}} transition={{duration: 2.6}}>
                 <div className='grid grid-cols-2 gap-2 mt-10 md:mx-0 mx-4'>
                     <input className='mt-4 px-2 rounded-md w-40' placeholder='First Name'/>
                     <input className='mt-4 px-2 rounded-md w-40'  placeholder='Last Name'/>
