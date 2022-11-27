@@ -2,17 +2,20 @@
 import React from 'react'
 import Button from '../../components/Button'
 import { motion } from 'framer-motion'
+import Image from 'next/image';
 
 export default function Contact() {
     return (
     <div className='bg-neutral-300 h-[100vh]'>
         <div className='grid md:grid-cols-2 grid-cols-1'>
             <motion.div initial={{opacity: 0, scale: 0.2}} whileInView={{opacity: 1, scale: 1}} transition={{duration: 0.8}} className='md:mx-24 mx-12'>
-                <div className='mt-12'>hhhhhhhh</div>
+                <div className='mt-12 h-full'>
+                    <Image alt='Hey' height={800} width={700} src='/contact.png'/>
+                </div>
             </motion.div>
 
             <motion.div initial={{opacity: 0, scale: 0.2}} animate={{opacity: 1, scale: 1}} transition={{duration: 2.2}}>
-                <div className='grid grid-cols-2 gap-2 mt-12 md:mx-0 mx-4'>
+                <div className='grid grid-cols-2 gap-2 mt-12 p-4 md:mx-0 mx-4'>
                     <input className='mt-4 px-2 rounded-md w-40' placeholder='First Name'/>
                     <input className='mt-4 px-2 rounded-md w-40'  placeholder='Last Name'/>
                     <input className='mt-4 px-2 rounded-md w-40'  placeholder='Email'/>
